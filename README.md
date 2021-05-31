@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Este pequeno projeto tem por finalidade simular o consumo de uma api usando o json server como api.
 
-O foco deste projeto é aprte de front-end de uma aplicação de controle de  funcionarios e suas tarefas .
+O foco deste projeto é parte de front-end de uma aplicação de controle de  funcionarios e suas tarefas .
 
 ## Primeiro passo iniciando Api-json-server
 

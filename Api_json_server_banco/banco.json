@@ -1,0 +1,76 @@
+{
+    "Funcionario":[
+        {
+
+        "nome":"Maria Madalena",
+        "matricula":"2345467",
+        "dataAdmissao":"05/02/2006",
+        "cargo":"Cozinheria",
+        "detalhesFuncao":"Responsavel por preparar as refeiçoes na empresa"
+    },
+    {
+
+        "nome":"Paula Fernandes",
+        "matricula":"2345489",
+        "dataAdmissao":"25/04/2008",
+        "cargo":"Auxiliar de RH",
+        "detalhesFuncao":"Responsavel por ajudar nos processos seletivos na empresa"
+    },
+    {
+
+        "nome":"João Carlos",
+        "matricula":"2345208",
+        "dataAdmissao":"02/09/2004",
+        "cargo":"Porteiro",
+        "detalhesFuncao":"Responsavel por portaria da empresa"
+    },
+
+    {
+
+        "nome":"Ricardo Abelar",
+        "matricula":"2341267",
+        "dataAdmissao":"15/05/2003",
+        "cargo":"Gerente Geral",
+        "detalhesFuncao":"Responsavel por gerenciar a empresa"
+    },
+    {
+
+        "nome":"Carla Tavares",
+        "matricula":"2345987",
+        "dataAdmissao":"23/02/2010",
+        "cargo":"Recepcionista",
+        "detalhesFuncao":"Responsavel por fazer atendimento na recepção na empresa"
+    }
+
+    ],
+
+    "Tarefa":[
+        {
+            "nome":"Preparar cafe da amanhã",
+            "dataEntrega":"",
+            "descricaoTarefa":"",
+            "status":""
+        },
+         {
+            "nome":"",
+            "dataEntrega":"",
+            "descricaoTarefa":"",
+            "status":""
+        },
+         {
+            "nome":"",
+            "dataEntrega":"",
+            "descricaoTarefa":"",
+            "status":""
+        },
+         {
+            "nome":"",
+            "dataEntrega":"",
+            "descricaoTarefa":"",
+            "status":""
+        }
+
+
+    ]
+
+}
