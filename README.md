@@ -1,6 +1,17 @@
-# ControleFuncionariosAngular
+# Controle de Funcionarios em Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+
+Este pequeno projeto tem por finalidade simular o consumo de uma api usando o json server como api.
+
+O foco deste projeto é aprte de front-end de uma aplicação de controle de  funcionarios e suas tarefas .
+
+## Primeiro passo iniciando Api-json-server
+
+**Antes de inciar o ng server entrar dentro da pasta da pasta Api_json_server_banco e digitar o seguinte comando:**
+
+json-server - -watch banco.json
+
 
 ## Development server
 
