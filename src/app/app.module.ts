@@ -5,8 +5,7 @@ import { AppComponent } from './app.component';
 
 import { FuncionarioModule } from './pages/Funcionario/funcionario/funcionario.module';
 import { TarefaModule } from './pages/Tarefa/tarefa/tarefa.module';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,8 @@ import { TarefaModule } from './pages/Tarefa/tarefa/tarefa.module';
     BrowserModule,
     AppRoutingModule,
     TarefaModule,
-    FuncionarioModule
+    FuncionarioModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

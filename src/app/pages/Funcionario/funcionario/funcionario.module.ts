@@ -5,8 +5,6 @@ import { CadastroFuncionarioComponent } from './../cadastro-funcionario/cadastro
 import { ListarFuncionarioComponent } from './../listar-funcionario/listar-funcionario.component';
 import { VisualizarFuncionarioComponent } from './../visualizar-funcionario/visualizar-funcionario.component';
 
-
-
 @NgModule({
   declarations: [
     CadastroFuncionarioComponent,
