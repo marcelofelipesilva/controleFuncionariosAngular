@@ -8,6 +8,8 @@ import { CadastroFuncionarioComponent } from './pages/Funcionario/cadastro-funci
 import { ListarFuncionarioComponent } from './pages/Funcionario/listar-funcionario/listar-funcionario.component';
 import { CadastroTarefaComponent } from './pages/Tarefa/cadastro-tarefa/cadastro-tarefa.component';
 import { ListarTarefaComponent } from './pages/Tarefa/listar-tarefa/listar-tarefa.component';
+import { VisualizarFuncionarioComponent } from './pages/Funcionario/visualizar-funcionario/visualizar-funcionario.component';
+import { VisualizarTarefaComponent } from './pages/Tarefa/visualizar-tarefa/visualizar-tarefa.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ListarTarefaComponent } from './pages/Tarefa/listar-tarefa/listar-taref
     CadastroFuncionarioComponent,
     ListarFuncionarioComponent,
     CadastroTarefaComponent,
-    ListarTarefaComponent
+    ListarTarefaComponent,
+    VisualizarFuncionarioComponent,
+    VisualizarTarefaComponent
   ],
   imports: [
     BrowserModule,
