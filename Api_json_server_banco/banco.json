@@ -47,29 +47,16 @@
     "Tarefa":[
         {
             "nome":"Preparar cafe da amanhã",
-            "dataEntrega":"",
-            "descricaoTarefa":"",
-            "status":""
+            "dataEntrega":"01/06/2021",
+            "descricaoTarefa":"servir o café da manhã para os funcionarios da empresa",
+            "status":"Pendente"
         },
          {
-            "nome":"",
-            "dataEntrega":"",
-            "descricaoTarefa":"",
-            "status":""
-        },
-         {
-            "nome":"",
-            "dataEntrega":"",
-            "descricaoTarefa":"",
-            "status":""
-        },
-         {
-            "nome":"",
-            "dataEntrega":"",
-            "descricaoTarefa":"",
-            "status":""
+            "nome":"Relatorio mensal",
+            "dataEntrega":"30/06/2021",
+            "descricaoTarefa":"fazer relatorio mensal de gastos da empresa",
+            "status":"Pendente"
         }
-
 
     ]
 
