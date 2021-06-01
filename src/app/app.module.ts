@@ -1,29 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { CadastroFuncionarioComponent } from './pages/Funcionario/cadastro-funcionario/cadastro-funcionario.component';
-import { ListarFuncionarioComponent } from './pages/Funcionario/listar-funcionario/listar-funcionario.component';
-import { CadastroTarefaComponent } from './pages/Tarefa/cadastro-tarefa/cadastro-tarefa.component';
-import { ListarTarefaComponent } from './pages/Tarefa/listar-tarefa/listar-tarefa.component';
-import { VisualizarFuncionarioComponent } from './pages/Funcionario/visualizar-funcionario/visualizar-funcionario.component';
-import { VisualizarTarefaComponent } from './pages/Tarefa/visualizar-tarefa/visualizar-tarefa.component';
+import { FuncionarioModule } from './pages/Funcionario/funcionario/funcionario.module';
+import { TarefaModule } from './pages/Tarefa/tarefa/tarefa.module';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastroFuncionarioComponent,
-    ListarFuncionarioComponent,
-    CadastroTarefaComponent,
-    ListarTarefaComponent,
-    VisualizarFuncionarioComponent,
-    VisualizarTarefaComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TarefaModule,
+    FuncionarioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
