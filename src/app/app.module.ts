@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { CadastroFuncionarioComponent } from './pages/Funcionario/cadastro-funcionario/cadastro-funcionario.component';
 import { ListarFuncionarioComponent } from './pages/Funcionario/listar-funcionario/listar-funcionario.component';
 import { CadastroTarefaComponent } from './pages/Tarefa/cadastro-tarefa/cadastro-tarefa.component';
