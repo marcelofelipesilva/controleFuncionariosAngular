@@ -13,6 +13,14 @@ import { VisualizarFuncionarioComponent } from './../visualizar-funcionario/visu
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    CadastroFuncionarioComponent,
+    ListarFuncionarioComponent,
+    VisualizarFuncionarioComponent
+  ],
 })
-export class FuncionarioModule { }
+export class FuncionarioModule {
+
+
+ }
