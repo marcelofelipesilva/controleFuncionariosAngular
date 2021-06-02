@@ -13,6 +13,12 @@ import { VisualizarTarefaComponent } from './../visualizar-tarefa/visualizar-tar
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    CadastroTarefaComponent,
+    VisualizarTarefaComponent,
+    ListarTarefaComponent
+
+  ],
 })
 export class TarefaModule { }
