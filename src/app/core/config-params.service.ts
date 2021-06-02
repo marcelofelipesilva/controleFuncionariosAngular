@@ -1,5 +1,6 @@
 import { HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { ConfigPrams } from '../shared/models/ConfigPrams';
 
 @Injectable({
   providedIn: 'root'
@@ -25,4 +26,5 @@ export class ConfigParamsService {
     httpParams = httpParams.set('_order', 'desc');
 
     return httpParams;
+}
 }
