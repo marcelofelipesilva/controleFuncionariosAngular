@@ -1,5 +1,5 @@
 export interface Tarefa{
-  idTarefa:number;
+  idTarefa?:number;
   nome:string;
   dataEntrega:Date;
   descricaoTarefa:string;

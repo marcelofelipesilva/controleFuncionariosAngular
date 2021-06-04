@@ -1,6 +1,6 @@
 export interface Funcionario{
 
-  idFuncionario : number;
+  idFuncionario? : number;
   nome :string;
   matricula:number;
   dataAdmissao: Date;
